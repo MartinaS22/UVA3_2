@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Imagen y Botones</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4" id="page-title">¡Mirá la siguiente imagen!</h1>
+        <button id="hide-button" class="btn btn-danger">Ocultar Imagen</button>
+        <button id="show-button" class="btn btn-success">Mostrar Imagen</button>
+        <div class="image">
+            <img id="image" src="logos.png" class="img-fluid" alt="Imagen de ejemplo">
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="estilos.js"></script>
+</body>
+</html>
